@@ -1,20 +1,20 @@
 <?php get_header(); ?>
-    <!-- メインビジュアル -->
-    <div class="home">
-      <div class="home_slider_container">
-        <div class="bd-example">
-          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="<?php echo get_template_directory_uri(  ); ?>/images/top1_1200_630.jpg" class="d-block w-100" style="background-color: #2b7b8e26" />
-                <div class="carousel-caption d-none d-md-block">
-                  <img src="<?php echo get_template_directory_uri(  ); ?>/images/logo_big_slide.png" />
-                  <div class="title-slide">
+  <!-- メインビジュアル -->
+  <div class="home">
+    <div class="home_slider_container">
+      <div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="<?php echo get_template_directory_uri(  ); ?>/images/top1_1200_630.jpg" class="d-block w-100" style="background-color: #2b7b8e26" />
+              <div class="carousel-caption d-none d-md-block">
+                <img src="<?php echo get_template_directory_uri(  ); ?>/images/logo_big_slide.png" />
+                <div class="title-slide">
                     <p>Samurai University</p>
                   </div>
                   <div class="content-slide">
@@ -25,130 +25,130 @@
                       時代と社会の要請に応えていく実学」の思いが込められています
                     </p>
                   </div>
-                </div>
               </div>
-              <div class="carousel-item">
-                <img src="<?php echo get_template_directory_uri(  ); ?>/images/top2_1200_630.jpg" class="d-block w-100" />
-                <div class="carousel-caption d-none d-md-block">
-                  <img src="<?php echo get_template_directory_uri(  ); ?>/images/logo_big_slide.png" />
-                  <div class="title-slide">
-                    <p>Samurai University</p>
-                  </div>
-                  <div class="content-slide">
-                    <p>
-                      SAMURAI大学の理念には「プログラミングを通して、
-                      国際社会に貢献する豊かな教養を備えた人材の育成」と
-                      「公正な世界観に基づき、
-                      時代と社会の要請に応えていく実学」の思いが込められています
-                    </p>
-                  </div>
+            </div>
+            <div class="carousel-item">
+              <img src="<?php echo get_template_directory_uri(  ); ?>/images/top2_1200_630.jpg" class="d-block w-100" />
+              <div class="carousel-caption d-none d-md-block">
+                <img src="<?php echo get_template_directory_uri(  ); ?>/images/logo_big_slide.png" />
+                <div class="title-slide">
+                  <p>Samurai University</p>
                 </div>
-              </div>
-              <div class="carousel-item">
-                <img src="<?php echo get_template_directory_uri(  ); ?>/images/top3_1200_630.jpg" class="d-block w-100" />
-                <div class="carousel-caption d-none d-md-block">
-                  <img src="<?php echo get_template_directory_uri(  ); ?>/images/logo_big_slide.png" />
-                  <div class="title-slide">
-                    <p>Samurai University</p>
-                  </div>
-                  <div class="content-slide">
-                    <p>
-                      SAMURAI大学の理念には「プログラミングを通して、
-                      国際社会に貢献する豊かな教養を備えた人材の育成」と
-                      「公正な世界観に基づき、
-                      時代と社会の要請に応えていく実学」の思いが込められています
-                    </p>
-                  </div>
+                <div class="content-slide">
+                  <p>
+                    SAMURAI大学の理念には「プログラミングを通して、
+                    国際社会に貢献する豊かな教養を備えた人材の育成」と
+                    「公正な世界観に基づき、
+                    時代と社会の要請に応えていく実学」の思いが込められています
+                  </p>
                 </div>
               </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
+            <div class="carousel-item">
+              <img src="<?php echo get_template_directory_uri(  ); ?>/images/top3_1200_630.jpg" class="d-block w-100" />
+              <div class="carousel-caption d-none d-md-block">
+                <img src="<?php echo get_template_directory_uri(  ); ?>/images/logo_big_slide.png" />
+                <div class="title-slide">
+                  <p>Samurai University</p>
+                </div>
+                <div class="content-slide">
+                  <p>
+                    SAMURAI大学の理念には「プログラミングを通して、
+                    国際社会に貢献する豊かな教養を備えた人材の育成」と
+                    「公正な世界観に基づき、
+                    時代と社会の要請に応えていく実学」の思いが込められています
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
       </div>
     </div>
+  </div>
     <!-- メインビジュアルここまで -->
 
-    <!-- ニュースとイベント -->
-    <div class="news">
-      <div class="footer_row">
-        <div class="row news_row">
-          <!-- ニュース -->
-          <div class="col-lg-6 col-md-6 col-sx-12 news_col">
-            <div class="home_title">News</div>
-            <div class="home_title_sub">ニュース</div>
-            <?php
-                $args = array(
-                    'post_type'      => 'post',
-                    'category_name' => 'news',
-                    'posts_per_page' => 3,
-                );
-                $posts = get_posts($args);
-            ?>   
+  <!-- ニュースとイベントと卒業生の声  -->
+  <div class="news">
+    <div class="footer_row">
+      <div class="row news_row">
+        <!-- ニュース -->
+        <div class="col-lg-6 col-md-6 col-sx-12 news_col">
+          <div class="home_title">News</div>
+          <div class="home_title_sub">ニュース</div>
+          <?php
+              $args = array(
+                'post_type'      => 'post',
+                'category_name' => 'news',
+                'posts_per_page' => 3,
+              );
+              $posts = get_posts($args);
+          ?>   
 
-            <?php foreach($posts as $post): ?>
+          <?php foreach($posts as $post): ?>
             <?php setup_postdata($post); ?>
             <div class="news_post_small">
-                <div class="news_post_meta">
+              <div class="news_post_meta">
                 <ul>
-                    <li>
-                        <a href="<?php echo get_permalink(); ?>">
-                            <?php echo get_the_date(); ?>
-                        </a>
-                    </li>
-                </ul>
-                </div>
-                <div class="news_post_small_title">
-                    <a href="<?php the_permalink(); ?>">
-                        <?php the_title(); ?>
+                  <li>
+                    <a href="<?php echo get_permalink(); ?>">
+                      <?php echo get_the_date(); ?>
                     </a>
-                </div>
+                  </li>
+              </ul>
+              </div>
+              <div class="news_post_small_title">
+                <a href="<?php the_permalink(); ?>">
+                  <?php the_title(); ?>
+                </a>
+              </div>
             </div>
 
-            <?php endforeach; ?>
-            <?php wp_reset_postdata(); ?>
+          <?php endforeach; ?>
+          <?php wp_reset_postdata(); ?>
 
-          </div>
-          <!-- ニュースここまで -->
+        </div>
+        <!-- ニュースここまで -->
 
-          <!-- イベント -->
-          <div class="col-lg-6 col-md-6 col-sx-12 news_col">
-            <div class="home_title">Event</div>
-            <div class="home_title_sub">イベント</div>
-              <?php
-                $args = array(
-                  'post_type'      => 'post',
-                  'category_name' => 'event',
-                  'posts_per_page' => 2,
-                );
-              $posts = get_posts($args);
-            ?>
+        <!-- イベント -->
+        <div class="col-lg-6 col-md-6 col-sx-12 news_col">
+          <div class="home_title">Event</div>
+          <div class="home_title_sub">イベント</div>
+          <?php
+          $args = array(
+            'post_type'      => 'post',
+              'category_name' => 'event',
+              'posts_per_page' => 2,
+          );
+          $posts = get_posts($args);
+          ?>
 
-            <?php foreach($posts as $post): ?>
-              <?php setup_postdata($post); ?>
-              <div class="news_post_small">
-                <div class="row news_post_row">
-                  <div class="col-lg-3 col-md-4 col-sx-12">
-                    <div class="calendar_border">
-                      <div class="calendar_border_1">
-                      <div class="calendar_month">
-                        <?php echo post_custom('month'); ?>
-                      </div>
-                      <div class="calendar_day">
-                        <span>
-                          <?php echo post_custom('day'); ?>
-                        </span>
-                        </div>
-                      </div>
+          <?php foreach($posts as $post): ?>
+            <?php setup_postdata($post); ?>
+            <div class="news_post_small">
+              <div class="row news_post_row">
+                <div class="col-lg-3 col-md-4 col-sx-12">
+                  <div class="calendar_border">
+                    <div class="calendar_border_1">
+                    <div class="calendar_month">
+                      <?php echo post_custom('month'); ?>
+                    </div>
+                    <div class="calendar_day">
+                      <span>
+                        <?php echo post_custom('day'); ?>
+                      </span>
+                    </div>
                     </div>
                   </div>
+                </div>
                 <div class="col-lg-9 col-md-8 col-sx-12">
                   <div class="news_post_small_title">
                     <a href="<?php the_permalink(); ?>">
@@ -164,106 +164,53 @@
                 </div>
               </div>
             </div>
-          <?php endforeach; ?> 
-          <?php wp_reset_postdata(); ?>
+            <?php endforeach; ?> 
+            <?php wp_reset_postdata(); ?>
 
-          </div>
-          <!-- イベントここまで -->
+        </div>
+        <div class="row news_row">
+        <!-- イベントここまで -->
           
-        　<!-- 卒業生の声 -->
-        　<div class="col-lg-6 col-md-6 col-sx-12 news_col">
+        <!-- 卒業生の声 -->
+          <div class="col-lg-6 col-md-6 col-sx-12 news_col">
             <div class="home_title">Guraduates</div>
             <div class="home_title_sub">卒業生の声</div>
             <?php
-                $args = array(
-                    'post_type'      => 'post',
-                    'category_name' => 'graduates',
-                    'posts_per_page' => 3,
-                );
-                $posts = get_posts($args);
+            $args = array(
+              'post_type'      => 'post',
+              'category_name' => 'graduates',
+              'posts_per_page' => 2,
+            );
+            $posts = get_posts($args);
             ?>   
-
-            <?php foreach($posts as $post): ?>
-            <?php setup_postdata($post); ?>
-            <div class="news_post_small">
-                <div class="news_post_meta">
-                <ul>
-                    <li>
-                        <a href="<?php echo get_permalink(); ?>">
-                            <?php echo get_the_date(); ?>
-                        </a>
-                    </li>
-                </ul>
-                </div>
-                <div class="news_post_small_title">
-                    <a href="<?php the_permalink(); ?>">
-                        <?php the_title(); ?>
-                    </a>
-                </div>
-            </div>
-
-            <?php endforeach; ?>
-            <?php wp_reset_postdata(); ?>
-
-          </div>
-          <!-- ニュースここまで --> 
-        </div>
-      </div>
-    </div>
-    <!-- ニュースとイベントここまで -->
-<div class="col-lg-6 col-md-6 col-sx-12 news_col">
-            <div class="home_title">Event</div>
-            <div class="home_title_sub">イベント</div>
-              <?php
-                $args = array(
-                  'post_type'      => 'post',
-                  'category_name' => 'event',
-                  'posts_per_page' => 2,
-                );
-              $posts = get_posts($args);
-            ?>
 
             <?php foreach($posts as $post): ?>
               <?php setup_postdata($post); ?>
               <div class="news_post_small">
-                <div class="row news_post_row">
-                  <div class="col-lg-3 col-md-4 col-sx-12">
-                    <div class="calendar_border">
-                      <div class="calendar_border_1">
-                      <div class="calendar_month">
-                        <?php echo post_custom('month'); ?>
-                      </div>
-                      <div class="calendar_day">
-                        <span>
-                          <?php echo post_custom('day'); ?>
-                        </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                <div class="col-lg-9 col-md-8 col-sx-12">
-                  <div class="news_post_small_title">
-                    <a href="<?php the_permalink(); ?>">
-                      <?php the_title() ; ?>
-                    </a>
-                  </div>
-                  <div class="news_post_content">
-                    <?php 
-                      $content = wp_trim_words( get_the_content() ,  50, '...');
-                      echo $content;
-                    ?>
-                  </div>
+                <div class="news_post_meta">
+                  <ul>
+                    <li>
+                      <a href="<?php echo get_permalink(); ?>">
+                        <?php echo get_the_date(); ?>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="news_post_small_title">
+                  <a href="<?php the_permalink(); ?>">
+                    <?php the_title(); ?>
+                  </a>
                 </div>
               </div>
-            </div>
-          <?php endforeach; ?> 
-          <?php wp_reset_postdata(); ?>
+              <?php endforeach; ?>
+              <?php wp_reset_postdata(); ?>
 
           </div>
-          <!-- イベントここまで -->
         </div>
       </div>
     </div>
+    <!-- ニュースとイベントと卒業生の声ここまで -->
+
     <!-- コース -->
     <div class="courses">
       <div class="footer_row">
@@ -275,69 +222,41 @@
             </div>
           </div>
         </div>
+        <?php
+        $args = array(
+          'post_type'      => 'course',
+          'posts_per_page' => 3,
+        );
+        $posts = get_posts($args);
+        ?>
+
         <div class="row courses_row">
+        <?php foreach ($posts as $post) : ?>
+          <?php setup_postdata($post); ?>
           <div class="col-lg-4 course_col">
             <div class="course">
               <div class="course_image">
-                <img src="<?php echo get_template_directory_uri(  ); ?>/images/pic6-3.jpg" alt="" />
-              </div>
+              <?php the_post_thumbnail();?>
+            </div>
               <div class="course_body">
                 <h3 class="course_title">
-                  <a href="courses_detail.html">教育学部</a>
-                </h3>
+                <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+              </h3>
                 <div class="course_text">
                   <p>
-                    広い視野と総合力を持つ世界に通用する、教育者・指導者を育成
-                  </p>
+                  <?php echo wp_trim_words(get_the_content(), 22, '...'); ?>
+                </p>
                 </div>
               </div>
               <div class="course_footer">
                 <div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
-                  <div class="course_price ml-auto">詳細を見る</div>
-                </div>
+                <div class="course_price ml-auto"><a href="<?php the_permalink(); ?>">詳細を見る</a></div>
+              </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 course_col">
-            <div class="course">
-              <div class="course_image">
-                <img src="<?php echo get_template_directory_uri(  ); ?>/images/pic6-1.jpg" alt="" />
-              </div>
-              <div class="course_body">
-                <h3 class="course_title">
-                  <a href="courses_detail.html">理工学部</a>
-                </h3>
-                <div class="course_text">
-                  <p>
-                    未知なる科学技術の扉を開く。 「次世代」を見据えた専門教育
-                  </p>
-                </div>
-              </div>
-              <div class="course_footer">
-                <div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
-                  <div class="course_price ml-auto">詳細を見る</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 course_col">
-            <div class="course">
-              <div class="course_image">
-                <img src="<?php echo get_template_directory_uri(  ); ?>/images/pic6-4.jpg" alt="" />
-              </div>
-              <div class="course_body">
-                <h3 class="course_title"><a href="courses_detail.html">法学部</a></h3>
-                <div class="course_text">
-                  <p>複雑な社会現象を考察する、法律学科と政治学科</p>
-                </div>
-              </div>
-              <div class="course_footer">
-                <div class="course_footer_content d-flex flex-row align-items-center justify-content-start">
-                  <div class="course_price ml-auto">詳細を見る</div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <?php endforeach; ?>
+        <?php wp_reset_postdata(); ?>
         </div>
       </div>
     </div>
@@ -386,4 +305,4 @@
       </div>
     </div>
     <!-- 数字ここまで -->
-     <?php get_footer(); ?>
+    <?php get_footer(); ?>
